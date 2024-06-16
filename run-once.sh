@@ -54,7 +54,7 @@ echo "**/.DS_Store" >> $GITIGNORE
 
 # Configure Jekyll for GitHub Pages
 echo "Add GitHub Pages to the bundle"
-bundle add "github-pages" --group "jekyll_plugins" --version 228
+bundle add "github-pages" --group "jekyll_plugins" --version 231
 
 # webrick is a technology that has been removed by Ruby, but needed for Jekyll
 echo "Add required webrick dependency to the bundle"
